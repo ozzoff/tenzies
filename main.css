@@ -1,0 +1,57 @@
+* {
+  font-family: "poppins";
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-color:rgb(60, 57, 255) ;
+  padding: 20px;
+  background-color: #0b2434;
+  text-align: center;
+}
+p{
+  width: 100%;
+  max-width: 340px;
+}
+.game_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 700px;
+  height: 90vh;
+  margin: auto;
+  background-color: rgb(241, 241, 241);
+  border-radius: 20px;
+  
+  
+}
+.allDice{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+  margin: 50px 0;
+}
+.die-num{
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow:2px 2px 2px rgba(0, 0, 0, 0.277) ;
+}
+
+button{
+  padding: 10px 30px;
+  background-color: #16962c;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
